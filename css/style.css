@@ -44,3 +44,7 @@ th,
 td {
     border: 1px solid;
 }
+
+#more {
+    display: none;
+}
