@@ -1,20 +1,62 @@
 body {
+    min-height: 100%;
     padding: 0;
     margin: 0;
-    background-color: blanchedalmond;
+    /* background-color: #f6f2fe; */
+    background: linear-gradient(109.6deg, rgb(177, 173, 219) 11.2%, rgb(245, 226, 226) 91.1%);
+}
+html {
+    height: 100%;
+}
+
+.body {
+    font-size: larger;
+    letter-spacing: 1.1px;
+    line-height: 1.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .Right {
-    width: 80%;
+    width: 70%;
     float: right;
     justify-content: space-evenly;
+    margin-right: 25px;
+    margin-left: 20px;
+
+}
+.other{
+    text-decoration: underline;
 }
 
 img {
-    width: 250px;
-    height: 350px;
+    width: 320px;
+    height: 510px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    padding: 5px;
+    background: #1D5C99;
+    /* border: 7px dotted rgb(255, 140, 0); */
+    border: 4px dotted  whitesmoke;
+    border-radius: 40px;
+    /* display: block;
+    margin: 0 auto; */
+
 }
 
+
+#myBtn{
+    display: block;
+    margin: 0 auto;
+    padding: 15px 20px;
+    border: 3px solid black;
+    transition: all 150ms ease-in-out;
+}
+
+#myBtn:hover{
+    background: black;
+    color: white;
+    cursor: crosshair;
+}
 .footer {
     padding: 30px;
     background-image: url(../img/backgound.png);
@@ -22,6 +64,9 @@ img {
     justify-content: space-evenly;
     word-spacing: 0px;
     color: black;
+}
+.intro {
+    font-size: larger;
 }
 
 #header {
@@ -33,6 +78,7 @@ img {
 #Right {
     background-image: url(../img/backgound.png);
     color: black;
+    padding: 35px;
 }
 
 table {
@@ -48,3 +94,12 @@ td {
 #more {
     display: none;
 }
+ .Vitae{
+    color: coral;
+ }
+
+
+/* .Vitae {
+color: red;
+text-align: center;
+} */
